@@ -1,0 +1,42 @@
+body{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    height:600px;
+    width:800px;
+    background:linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    display:flex;
+    flex-direction: column;
+    border:10px solid black;
+}
+
+.apj{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.apj img{
+    border-radius: 150px;
+    height:200px;
+    margin:50px;
+}
+.birth{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.birth p{
+    font-weight: bold;
+    padding:0px;
+    margin:0 auto;
+}
+.missile{
+    margin-left:150px;
+}
+.description{
+    margin-left:150px;
+    margin-right:105px;
+    font-style:italic
+}
